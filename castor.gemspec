@@ -1,4 +1,4 @@
-require_relative 'lib/castor/version'
+require File.expand_path('../lib/castor/version', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'castor-rds' # Not castor because there's another gem with that name already...
